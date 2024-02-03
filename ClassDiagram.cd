@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab9.CalendarDate">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkoAAAJAAAAAAExAAAAAAAAAQAABAEEgBAAAAAAAE=</HashCode>
+      <FileName>CalendarDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab9.CalendarDateArray">
+    <Position X="10.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAADAAAAABAAAAEBAAAAAIAAAAAAAA=</HashCode>
+      <FileName>CalendarDateArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab9.Program">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
