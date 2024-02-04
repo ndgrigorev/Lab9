@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Lab9
 {
-    internal class CalendarDate
+    public class CalendarDate
     {
         public int day; 
         public int month; 
@@ -253,7 +253,7 @@ namespace Lab9
                     {
                         if (date1.Month == 1)
                         {
-                            if (date1.Year == 0)
+                            if (date1.Year == 1)
                             {
                                 return date1;
                             }
@@ -297,7 +297,7 @@ namespace Lab9
                 {
                     if (date.Month == 1)
                     {
-                        if (date.Year == 0)
+                        if (date.Year == 1)
                         {
                             Console.WriteLine("Ошибка, время до нашей эры не поддерживается");
                             return date;

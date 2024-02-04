@@ -91,7 +91,6 @@
             Console.WriteLine(SameYear(array2));
             Console.WriteLine($"Создано {CalendarDateArray.count} коллекций");
             Console.WriteLine($"Создано {CalendarDate.count} объектов");
-            Console.WriteLine("");
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab9
 {
-    internal class CalendarDateArray
+    public class CalendarDateArray
     {
         static Random Random = new Random();
 
@@ -105,6 +105,18 @@ namespace Lab9
                     throw new Exception("Индекс выходит за пределы коллекции");
                 }
             }
+        }
+        public override bool Equals(Object obj)
+        {
+            if (obj is CalendarDateArray calendar)
+            {
+                if (dates.SequenceEqual(calendar.dates))
+                {
+                    return true;
+                }
+                else { return false; }
+            }
+            return false;
         }
     }
 }
